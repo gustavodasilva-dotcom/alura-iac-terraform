@@ -20,6 +20,6 @@ resource "aws_instance" "app_server" {
   key_name      = "iac-alura"
 
   tags = {
-    Name = "Teste AWS"
+    Name = "Terraform/Ansible/Python"
   }
 }
