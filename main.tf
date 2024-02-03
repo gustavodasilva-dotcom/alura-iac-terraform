@@ -20,6 +20,6 @@ resource "aws_instance" "app_server" {
   key_name      = "iac-alura"
 
   tags = {
-    Name = "Primeira instância"
+    Name = "Teste AWS"
   }
 }
